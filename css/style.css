@@ -234,14 +234,14 @@ body {
 }
 
 .checked-stars {
-  background-image: url('./Star-checked.svg');
+  background-image: url('../images/star-checked.svg');
   width: 12px;
   height: 12px;
   display: inline-block;
 }
 
 .unchecked-stars {
-  background-image: url('./Star-unchecked.svg');
+  background-image: url('../images/star-unchecked.svg');
   width: 12px;
   height: 12px;
   display: inline-block;
@@ -447,7 +447,7 @@ body {
 }
 
 .arrow {
-  background-image: url('./Arrow\ 1.svg');
+  background-image: url('../images/right-arrow.svg');
   width: 8px;
   height: 8px;
   display: inline-block;
