@@ -28,7 +28,6 @@ section.container {
 
 .medicine-instruction-box {
   width: 1040;
-  height: 620px;
   border: 1px solid rgba(213, 213, 213, 0.6);
 }
 
@@ -71,10 +70,10 @@ section.container {
   margin: 0;
 }
 
-.medicine-name-box-1 {
+/* .medicine-name-box-1 {
   width: 260px;
   height: 260px;
-  background: #f6f6f6;
+  background-image: #f6f6f6;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -85,7 +84,42 @@ section.container {
   color: #b0b0b0;
   padding: 0;
   margin: 0;
+} */
+
+
+.draft-medicine-name-box-1 {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  background-image: url('../images/260x260.png');
+  background-repeat: no-repeat;
+  border: 1px solid rgba(213, 213, 213, 0.6);
 }
+
+.sale-ribbon {
+  position: absolute;
+  background-image: url('../images/sale-ribbon.svg');
+  height: 100px;
+  width: 100px;
+  right:0;
+  text-align: center;
+}
+
+.sale-ribbon span {
+  display: inline-block;
+  transform: rotate(45deg);
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 26px;
+  margin-left: 21px;
+
+}
+
 
 .medicine-name-box-3 {
   margin-top: 80px;
@@ -223,6 +257,14 @@ section.container {
 
 .icon-tabulette {
   background-image: url('../images/icon-tabulette.svg');
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+}
+
+.icon-similar {
+  background-image: url('../images/icon-similar.svg');
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -479,11 +521,11 @@ section.container {
 }
 
 .carousel-control-prev {
-  left: -20px;
+  left: -70px;
 }
 
 .carousel-control-next {
-  right: -20px;
+  right: -70px;
 }
 
 .carousel-item {
@@ -600,6 +642,63 @@ section.container {
 .short-margin-top {
   margin-top: 45px;
 }
+
+.medicine-name-box-3 .price-nosale {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  /* line-height: 24px; */
+  color: #2a2a2a;
+  margin: 5px 10px 0px 20px;
+}
+
+.medicine-name-box-3 .price-withsale {
+  margin: 5px 5px 20px 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 12px;
+  color: #adacac;
+  text-decoration-line: line-through;
+}
+
+.sale-part {
+  display: flex;
+}
+
+.sale-percent {
+  background-image: url('../images/sale-percent.svg');
+  height: 16px;
+  width: 34px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 10px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+
+/* Good Special offer */
+
+.medicine-name-box-3 .medicine-form-good {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #adacac;
+  margin: 0px 10px 20px 20px;
+}
+
+.good-height {
+  height: 180px;
+}
+
+
+
 
 
 

@@ -1,7 +1,7 @@
 
 
 /* Image */
-.image {
+/* .image {
   height: 216px;
   border: none;
   background: rgba(235, 235, 235, 0.44);
@@ -12,7 +12,17 @@
   text-align: center;
   justify-content: center;
   max-width: 1440px;
+} */
+
+section.image {
+  content: url('../images/logo.svg');
+  border: 1px solid rgba(235, 235, 235, 0.44);
+  max-height: 216px;
+  max-width: 1440px;
+  
 }
+
+
 
 /* All carousel Medtexnika/Lekars/ Poleznie stati */
 
@@ -33,11 +43,11 @@
 }
 
 .carousel-control-prev {
-  left: -20px;
+  left: -70px;
 }
 
 .carousel-control-next {
-  right: -20px;
+  right: -70px;
 }
 
 .main-h1 h1 {
