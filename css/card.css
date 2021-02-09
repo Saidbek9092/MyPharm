@@ -231,15 +231,6 @@ section.container {
 
 
 
-
-
-
-
-
-
-
-
-
 .medicine-box-1,
 .medicine-box-2 {
   width: 510px;
@@ -601,6 +592,13 @@ section.container {
   color: #ffffff;
   padding: 6px;
   border: none;
+}
+
+/* ---------No brand Simple medicine card ---------- */
+/* we use it if we delete special offer logo */
+
+.short-margin-top {
+  margin-top: 45px;
 }
 
 
