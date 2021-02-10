@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cba4a32a-fd70-4963-ae3e-fafe242f8418" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/shared.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shared.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/brand-good-card-notavailable.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/brand-good-card-notavailable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/brand-good-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/brand-good-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/brand-medicine-card-norecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/brand-medicine-card-norecipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/brand-medicine-card-notavailable-norecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/brand-medicine-card-notavailable-norecipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/brand-medicine-card-notavailable-recipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/brand-medicine-card-notavailable-recipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/brand-medicine-card-order-norecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/brand-medicine-card-order-norecipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/brand-medicine-card-order-recipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/brand-medicine-card-order-recipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/brand-medicine-card-recipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/brand-medicine-card-recipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/delivery.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/delivery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/good-card-notavailable.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/good-card-notavailable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/good-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/good-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/good-special-offer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/good-special-offer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main-search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/medicine-card-norecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/medicine-card-norecipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/medicine-card-notavailable-norecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/medicine-card-notavailable-norecipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/medicine-card-notavailable-recipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/medicine-card-notavailable-recipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/medicine-card-order-norecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/medicine-card-order-norecipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/medicine-card-order-recipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/medicine-card-order-recipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/medicine-card-recipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/medicine-card-recipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/medicine-special-offer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/medicine-special-offer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/section.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/section.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +34,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612888011146</updated>
-      <workItem from="1612888013928" duration="18169000" />
+      <workItem from="1612888013928" duration="18488000" />
     </task>
     <servers />
   </component>
