@@ -1,832 +1,824 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyPharm | Homepage</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./css/shared.css">
-  <link rel="stylesheet" href="./css/main.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPharm | Homepage</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+          integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-  <!-- Top - 1/layer - 1 -->
-      <div class="container top-layer max-width">
-        <div class="row align-items-center header">
-          <div class="col">
+
+<!-- Header -->
+<div class="container top-layer max-width">
+    <div class="row align-items-center header">
+        <div class="col">
               <span class="header__phone">
                 <i class="fas fa-phone-alt"></i> <strong>+998971005622</strong>
               </span>
-          </div>
-          <div class="col text-center header__logo">
-            <img src="./images/logo.svg" alt="">
-          </div>
-          <div class="col">
-            <div  class="text-end header__links">
-              <a href="#" class="header__profile">
-                <i class="fas fa-user"></i> Личный кабинет
-              </a>
-               <a href="#" class="header__register">
-                 <i class="fas fa-lock login-icon"></i> Регистрация
+        </div>
+        <div class="col text-center header__logo">
+            <img src="./images/logo.svg" alt="Logo">
+        </div>
+        <div class="col">
+            <div class="text-end header__links">
+                <a href="#" class="header__profile">
+                    <i class="fas fa-user"></i> Личный кабинет
                 </a>
-              </ul>
+                <a href="#" class="header__register">
+                    <i class="fas fa-lock login-icon"></i> Регистрация
+                </a>
             </div>
-          </div>
         </div>
-      </div>
-  <!-- Top - 1/layer - 1 finished -->
+    </div>
+</div>
+<!-- /Header -->
 
-  <!-- Top -2/ layer -2 -->
-      <section class="search-color">
-          <div class="container max-width">
-            <div class="row">
-              <div class="col">
-               <div class="d-flex search">
-                  <!-- Search -->
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <button class="btn btn-outline-secondary dropdown-toggle btn-dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars hamburger-menu"></i>Выбрать категорию</button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                      <div role="separator" class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Separated link</a>
+<!-- Search -->
+<section class="search-color">
+    <div class="container max-width">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex search">
+                    <!-- Search input -->
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-outline-secondary dropdown-toggle btn-dropdown" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                    class="fas fa-bars hamburger-menu"></i>Выбрать категорию
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button"
+                               placeholder="Поиск товаров...">
+                        <i class="fa fa-search search-position"></i>
+                        <div class="icons d-flex">
+                            <a href="#"><i class="far fa-heart fa-2x coloring"></i></a>
+                            <a href="#"><i class="fas fa-shopping-cart fa-2x coloring"></i></a>
+                        </div>
                     </div>
-                  </div>
-                  <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Поиск товаров...">
-                  <i class="fa fa-search search-position"></i>
-                  <div class="icons d-flex">
-                    <a href="#"><i class="far fa-heart fa-2x coloring"></i></a>
-                    <a href="#"><i class="fas fa-shopping-cart fa-2x coloring"></i></a>
-                  </div>
+                    <!-- /Search input -->
                 </div>
-                <!-- /Search finished -->
-
-               </div>
-              </div>
             </div>
-          </div>
-      </section>
-  <!-- Top -2/ layer -2 finished-->
-  
-      <!-- NEW NAVBAR -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container max-width">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        </div>
+    </div>
+</section>
+<!-- /Search -->
+
+<!-- Categories -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container max-width">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  <i class="fas fa-stethoscope icon-size"></i><span>ЛЕКАРСТВЕННЫЕ ПРЕПАРАТЫ</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-leaf"></i> <span> ВИТАМИНЫ
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <i class="fas fa-stethoscope icon-size"></i><span>ЛЕКАРСТВЕННЫЕ ПРЕПАРАТЫ</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-leaf"></i> <span> ВИТАМИНЫ
                   И БАДЫ</span></a>
-              </li>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-briefcase-medical"></i>МЕДИЦИНСКАЯ
-                  ТЕХНИКА</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-briefcase-medical"></i>МЕДИЦИНСКАЯ
+                        ТЕХНИКА</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-briefcase-medical"></i>МЕДИЦИНСКИЕ
-                  ИЗДЕЛИЯ</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-briefcase-medical"></i>МЕДИЦИНСКИЕ
+                        ИЗДЕЛИЯ</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-pump-soap"></i>ЛЕЧЕБНАЯ КОСМЕТИКА</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-pump-soap"></i>ЛЕЧЕБНАЯ КОСМЕТИКА</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-pump-soap"></i>СРЕДСТВА ГИГИЕНЫ</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-pump-soap"></i>СРЕДСТВА ГИГИЕНЫ</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-baby"></i>МАМА 
-                  И МАЛЫШ</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-baby"></i>МАМА
+                        И МАЛЫШ</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-notes-medical"></i>ПИТАНИЕ</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-notes-medical"></i>ПИТАНИЕ</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-leaf"></i>ЛЕЧЕБНЫЕ МАСЛА,
-                  ЧАИ И ТРАВЫ</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-leaf"></i>ЛЕЧЕБНЫЕ МАСЛА,
+                        ЧАИ И ТРАВЫ</a>
+                </li>
             </ul>
-          </div>
         </div>
-      </nav>
+    </div>
+</nav>
+<!-- /Categories -->
 
-      <!-- NEW NAVBAR FINISHED -->
+<!-- Banner -->
+<section class="container-fluid text-center">
+    <img src="https://via.placeholder.com/1440x220?text=1440x220" class="img-fluid" alt="1440x220">
+</section>
+<!-- /Banner -->
 
-      <!-- Image -->
-      <section class="container image">
-        <!-- <img src="./images/logo.svg" alt="Not Found"> -->
-      </section> 
-      <!-- Image finished -->
-
-
-
-      
-      <!-- carousel Med texnika -->
-
-      <div class="container main-h1 max-width">
-        <h1 class="sizing20">Медицинская техника</h1>
-      </div>
-      <div class="container carousel">
-        <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
+<!-- Carousel -->
+<div class="container max-width mt-4">
+    <h1 class="font-size-20">Медицинская техника</h1>
+</div>
+<div class="container carousel">
+    <div id="carousel-1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
             <div class="carousel-item active">
-              <section class="container max-width">
-                <div class=" container-box">
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
+                <section class="container max-width">
+                    <div class=" d-flex justify-content-between">
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
                         </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
                         </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                </div>
-              </section>
+                </section>
             </div>
             <div class="carousel-item">
-              <section class="container max-width">
-                <div class=" container-box">
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
+                <section class="container max-width">
+                    <div class=" d-flex justify-content-between">
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
                         </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
                         </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                </div>
-              </section>
+                </section>
             </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-bs-slide="prev">
+        </div>
+        <a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-bs-slide="next">
+        </a>
+        <a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </a>
-        </div>
-      </div>
-      <!-- carousel med texnika finished -->
+        </a>
+    </div>
+</div>
 
-
-      <!-- carousel lekarstvennie preparati -->
-      <div class="container main-h1 max-width">
-        <h1 class="sizing20">Лекарственные препараты</h1>
-      </div>
-      <div class="container carousel">
-        <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
+<!-- /Carousel -->
+<div class="container max-width mt-4">
+    <h1 class="font-size-20">Лекарственные препараты</h1>
+</div>
+<div class="container carousel">
+    <div id="carousel-2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
             <div class="carousel-item active">
-              <section class="container max-width">
-                <div class=" container-box">
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
+                <section class="container max-width">
+                    <div class=" d-flex justify-content-between">
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
                         </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
                         </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                </div>
-              </section>
+                </section>
             </div>
             <div class="carousel-item">
-              <section class="container max-width">
-                <div class=" container-box">
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
+                <section class="container max-width">
+                    <div class=" d-flex justify-content-between">
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
                         </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
                         </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="box text-center padding-top-20">
+                            <img src="https://via.placeholder.com/160x160?text=160x160" class="img-fluid" alt="160x160">
+                            <div class="container width-box-160">
+                                <h2>Глюкометр Contour Plus</h2>
+                                <p>Ascensia Diabetes Care, Швейцария</p>
+                                <div class="carousel-stars">
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="checked-stars"></span>
+                                    <span class="unchecked-stars"></span>
+                                </div>
+                                <div class="part-one">
+                                    <h6>124 000</h6>
+                                    <p style="text-align: left; margin: 0;">сум за уп.</p>
+                                </div>
+                                <div class="part-2">
+                                    <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="container inside-box">160x160</div>
-                    <div class="container width-box-160">
-                        <h2>Глюкометр Contour Plus</h2>
-                        <p>Ascensia Diabetes Care, Швейцария</p>
-                        <div class="stars">
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="checked-stars"></span>
-                          <span class="unchecked-stars"></span>
-                        </div>
-                        <div class="part-one">
-                          <h6>124 000</h6>
-                          <p style="text-align: left; margin: 0;">сум за уп.</p>
-                        </div>
-                      <div class="part-2">
-                        <button><i class="fas fa-cart-arrow-down"></i>Купить</button>
-                     </div>
-                     <div class="clearfix"></div>
-                    </div>
-                  </div>
-                </div>
-              </section>
+                </section>
             </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-bs-slide="prev">
+        </div>
+        <a class="carousel-control-prev" href="#carousel-2" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-bs-slide="next">
+        </a>
+        <a class="carousel-control-next" href="#carousel-2" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </a>
+        </a>
+    </div>
+</div>
+<!-- /Carousel -->
+
+
+<!-- Recommended -->
+<section class="container mt-3 max-width">
+    <h1 class="font-size-20">Мы рекомендуем</h1>
+    <div class="recommended-images d-flex">
+        <div class="recommended-image-big">
+            <img src="https://via.placeholder.com/510x340?text=510x340" class="img-fluid" alt="510x340">
         </div>
-      </div>
-      <!-- carousel lekarstvennie preparati finished -->
-
-
-      <!-- Mi rekomenduyem -->
-      <section class="container max-width">
-        <h1 class="sizing20">Мы рекомендуем</h1>
-        <div class="big-picture">
-          <div class="box-big">
-            510x340
-          </div>
-          <div class="box-small">
-            <div class="box-small-1">510x160</div>
-            <div class="box-small-2">510x160</div>
-          </div>
+        <div>
+            <div class="box-small-1 ">
+                <img src="https://via.placeholder.com/510x160?text=510x160" class="img-fluid" alt="510x160">
+            </div>
+            <div class="box-small-2">
+                <img src="https://via.placeholder.com/510x160?text=510x160" class="img-fluid" alt="510x160">
+            </div>
         </div>
-      </section>
-      <!-- Mi rekomenduyem finished -->
+    </div>
+</section>
+<!-- /Recommended -->
 
-
-      <!-- carousel 4 Poleznie stati-->
-
-      <div class="container main-h1 max-width">
-        <h1 class="sizing20">Полезные статьи</h1>
-      </div>
-      <div class="container carousel">
-        <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
+<!-- Articles -->
+<div class="container mt-3 max-width">
+    <h1 class="font-size-20">Полезные статьи</h1>
+</div>
+<div class="container carousel">
+    <div id="carousel-3" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
             <div class="carousel-item active">
-              <section class="container usefull max-width">
-                <div class="container-box">
-                  <div class=" smallbox">
-                    <div class=" container smallbox-inside">
-                      208x182
+                <section class="container max-width">
+                    <div class="d-flex justify-content-between  ">
+                        <div class="article-box padding-all-20 ">
+                            <img src="https://via.placeholder.com/208x182?text=208x182" class="img-fluid" alt="208x182">
+                            <h2>Название статьи</h2>
+                        </div>
+                        <div class="article-box padding-all-20 ">
+                            <img src="https://via.placeholder.com/208x182?text=208x182" class="img-fluid" alt="208x182">
+                            <h2>Название статьи</h2>
+                        </div>
+                        <div class="article-box padding-all-20 ">
+                            <img src="https://via.placeholder.com/208x182?text=208x182" class="img-fluid" alt="208x182">
+                            <h2>Название статьи</h2>
+                        </div>
+                        <div class="article-box padding-all-20 ">
+                            <img src="https://via.placeholder.com/208x182?text=208x182" class="img-fluid" alt="208x182">
+                            <h2>Название статьи</h2>
+                        </div>
                     </div>
-                    <h2>Название статьи</h2>
-                  </div>
-                  <div class=" smallbox">
-                    <div class=" container smallbox-inside">
-                      208x182
-                    </div>
-                    <h2>Название статьи</h2>
-                  </div>
-                  <div class=" smallbox">
-                    <div class=" container smallbox-inside">
-                      208x182
-                    </div>
-                    <h2>Название статьи</h2>
-                  </div>
-                  <div class=" smallbox">
-                    <div class=" container smallbox-inside">
-                      208x182
-                    </div>
-                    <h2>Название статьи</h2>
-                  </div>
-                </div>
-              </section>
-      
+                </section>
             </div>
             <div class="carousel-item">
-              <section class="container usefull max-width">
-                <div class="container-box">
-                  <div class=" smallbox">
-                    <div class=" container smallbox-inside">
-                      208x182
+                <section class="container max-width">
+                    <div class="d-flex justify-content-between  ">
+                        <div class="article-box padding-all-20 ">
+                            <img src="https://via.placeholder.com/208x182?text=208x182" class="img-fluid" alt="208x182">
+                            <h2>Название статьи</h2>
+                        </div>
+                        <div class="article-box padding-all-20 ">
+                            <img src="https://via.placeholder.com/208x182?text=208x182" class="img-fluid" alt="208x182">
+                            <h2>Название статьи</h2>
+                        </div>
+                        <div class="article-box padding-all-20 ">
+                            <img src="https://via.placeholder.com/208x182?text=208x182" class="img-fluid" alt="208x182">
+                            <h2>Название статьи</h2>
+                        </div>
+                        <div class="article-box padding-all-20 ">
+                            <img src="https://via.placeholder.com/208x182?text=208x182" class="img-fluid" alt="208x182">
+                            <h2>Название статьи</h2>
+                        </div>
                     </div>
-                    <h2>Название статьи</h2>
-                  </div>
-                  <div class=" smallbox">
-                    <div class=" container smallbox-inside">
-                      208x182
-                    </div>
-                    <h2>Название статьи</h2>
-                  </div>
-                  <div class=" smallbox">
-                    <div class=" container smallbox-inside">
-                      208x182
-                    </div>
-                    <h2>Название статьи</h2>
-                  </div>
-                  <div class=" smallbox">
-                    <div class=" container smallbox-inside">
-                      208x182
-                    </div>
-                    <h2>Название статьи</h2>
-                  </div>
-                </div>
-              </section>
+                </section>
             </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-bs-slide="prev">
+        </div>
+        <a class="carousel-control-prev" href="#carousel-3" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-bs-slide="next">
+        </a>
+        <a class="carousel-control-next" href="#carousel-3" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </a>
-        </div>
-      </div>
- <!-- carousel 4 Poleznie stati fisnihed-->
- <!-- Proizvoditeli -->
-          
-      <section class="container five-box max-width">
-        <h1 class="sizing20">Производители</h1>
-        <div class="displaybox">
-          <div class="another-box">
-            165x83
-          </div>
-          <div class="another-box">
-            165x83
-          </div>
-          <div class="another-box">
-            165x83
-          </div>
-          <div class="another-box">
-            165x83
-          </div>
-          <div class="another-box">
-            165x83
-          </div>
-          <div class="another-box">
-            165x83
-          </div>
-        </div>
-      </section>
+        </a>
+    </div>
+</div>
+<!-- /Articles -->
 
-      <div class=" container mypharma max-width">
-        <p> <strong> MyPharm.uz - онлайн сервис по заказу лекарств и товаров для здоровья из аптечных сетей с доставкой в Ташкенте </strong>
-          MyPharm предлагает Вам совершенно новый взгляд на поход в аптеку. Больше нет необходимости ждать в очереди у аптечного окна, т.к. теперь Вы можете выбирать лекарства не выходя из дома или не покидая рабочего места. Вы можете предварительно ознакомиться с лекарственными препаратами, БАДами, косметикой и прочими медицинскими изделиями на сайте и забронировать необходимый товар, а наши курьеры доставят Вам на дом.</p>
-          <p> <strong>Найти и купить лекарства в Ташкенте</strong> 
-            Легкая и удобная поисковая навигация в представленном каталоге товаров позволит узнать об интересующих вас аптечных средствах. Вам потребуется лишь завести в строку поиска искомое наименование, и вы получите всю необходимую информацию об имеющемся продукте: его назначении, способе применения, составе, имеющихся противопоказаниях и возможных побочных действиях.
-           Здоровье не прощает экономии на качестве. MyPharm работает только с проверенными аптечными сетями, которые гарантируют качество и наличие сертификатов, регистрационных удостоверений и других сопутствующих документов на каждый из более чем 13 000 товаров.</p>
-           
-      </div>
- <!-- Proizvoditeli finishied -->
+<!-- Manufacturers -->
+<section class="container max-width">
+    <h1 class="font-size-20 mt-4">Производители</h1>
+    <div class="d-flex justify-content-between">
+        <img src="https://via.placeholder.com/165x83?text=165x83" class="img-fluid" alt="165x83">
+        <img src="https://via.placeholder.com/165x83?text=165x83" class="img-fluid" alt="165x83">
+        <img src="https://via.placeholder.com/165x83?text=165x83" class="img-fluid" alt="165x83">
+        <img src="https://via.placeholder.com/165x83?text=165x83" class="img-fluid" alt="165x83">
+        <img src="https://via.placeholder.com/165x83?text=165x83" class="img-fluid" alt="165x83">
+        <img src="https://via.placeholder.com/165x83?text=165x83" class="img-fluid" alt="165x83">
+    </div>
+</section>
+<!-- /Manufacturers -->
 
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="container footer-element max-width">
+<!-- Company info -->
+<div class="container company-info max-width">
+    <p>
+        <strong>
+            MyPharm.uz - онлайн сервис по заказу лекарств и товаров для здоровья из аптечных сетей с доставкой в
+            Ташкенте
+        </strong>
+        MyPharm предлагает Вам совершенно новый взгляд на поход в аптеку. Больше нет необходимости ждать в очереди у
+        аптечного окна, т.к. теперь Вы можете выбирать лекарства не выходя из дома или не покидая рабочего места. Вы
+        можете предварительно ознакомиться с лекарственными препаратами, БАДами, косметикой и прочими медицинскими
+        изделиями на сайте и забронировать необходимый товар, а наши курьеры доставят Вам на дом.</p>
+    <p>
+        <strong>Найти и купить лекарства в Ташкенте</strong>
+        Легкая и удобная поисковая навигация в представленном каталоге товаров позволит узнать об интересующих вас
+        аптечных средствах. Вам потребуется лишь завести в строку поиска искомое наименование, и вы получите всю
+        необходимую информацию об имеющемся продукте: его назначении, способе применения, составе, имеющихся
+        противопоказаниях и возможных побочных действиях.
+        Здоровье не прощает экономии на качестве. MyPharm работает только с проверенными аптечными сетями, которые
+        гарантируют качество и наличие сертификатов, регистрационных удостоверений и других сопутствующих документов на
+        каждый из более чем 13 000 товаров.
+    </p>
+
+</div>
+<!-- /Company info -->
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container footer-element max-width">
         <div class="info">
-          <h1 class="footer-sizing">ИНФОРМАЦИЯ</h1>
-          <ul class="style-list">
-            <li><a class="style-list-item" href="#">Главная</a></li>
-            <li><a class="style-list-item" href="#">О компании</a></li>
-            <li><a class="style-list-item" href="#">Доставка</a></li>
-            <li><a class="style-list-item" href="#">Контакты</a></li>
-            <li><a class="style-list-item" href="#">Пользовательское соглашение</a></li>
-          </ul>
+            <h1 class="footer-sizing">ИНФОРМАЦИЯ</h1>
+            <ul class="style-list">
+                <li><a class="style-list-item" href="#">Главная</a></li>
+                <li><a class="style-list-item" href="#">О компании</a></li>
+                <li><a class="style-list-item" href="#">Доставка</a></li>
+                <li><a class="style-list-item" href="#">Контакты</a></li>
+                <li><a class="style-list-item" href="#">Пользовательское соглашение</a></li>
+            </ul>
         </div>
         <div class="catalogue">
-          <h1 class="footer-sizing">КАТАЛОГ</h1>
-          <ul class="style-list">
-            <li><a class="style-list-item" href="#">Витамины и БАДы</a></li>
-            <li><a class="style-list-item" href="#">Сахарный диабет</a></li>
-            <li><a class="style-list-item" href="#">Лекарственные препараты</a></li>
-            <li><a class="style-list-item" href="#">Приборы и изделия</a></li>
-          </ul>
+            <h1 class="footer-sizing">КАТАЛОГ</h1>
+            <ul class="style-list">
+                <li><a class="style-list-item" href="#">Витамины и БАДы</a></li>
+                <li><a class="style-list-item" href="#">Сахарный диабет</a></li>
+                <li><a class="style-list-item" href="#">Лекарственные препараты</a></li>
+                <li><a class="style-list-item" href="#">Приборы и изделия</a></li>
+            </ul>
         </div>
         <div class="mass-market">
-          <h1 class="footer-sizing">МАСС-МАРКЕТ</h1>
-          <ul class="style-list">
-            <li><a class="style-list-item" href="#">Мама и малыш</a></li>
-            <li><a class="style-list-item" href="#">Чаи и травы</a></li>
-            <li><a class="style-list-item" href="#">Гигиенические средства</a></li>
-            <li><a class="style-list-item" href="#">Детское питание</a></li>
-          </ul>
+            <h1 class="footer-sizing">МАСС-МАРКЕТ</h1>
+            <ul class="style-list">
+                <li><a class="style-list-item" href="#">Мама и малыш</a></li>
+                <li><a class="style-list-item" href="#">Чаи и травы</a></li>
+                <li><a class="style-list-item" href="#">Гигиенические средства</a></li>
+                <li><a class="style-list-item" href="#">Детское питание</a></li>
+            </ul>
         </div>
         <div class="network">
-          <h1 class="footer-sizing">Мобильное приложение MyPharm</h1>
-          <div class="logos">
-            <img src="./images/google-play-logo.svg" alt="">
-            <img src="./images/appstore.png" alt="">
-          </div>
-          <p class="social-par">Мы в социальных сетях</p>
-          <div class="socials">
-            <a href="https://www.facebook.com/">
-              <i class="fab fa-facebook sizing-social"></i>
-            </a>
-            <a href="https://www.instagram.com/">
-              <i class="fab fa-instagram sizing-social"></i>
-            </a>
-            <a href="https://www.telegram.com/">
-              <i class="fab fa-telegram sizing-social"></i>
-            </a>
-          </div>
-          <p class="location"><i class="fas fa-map-marker-alt"></i>Яккасарайский район, ул. Бабура, 74</p>
+            <h1 class="footer-sizing">Мобильное приложение MyPharm</h1>
+            <div class="logos">
+                <img src="./images/google-play-logo.svg" alt="">
+                <img src="./images/appstore.png" alt="">
+            </div>
+            <p class="social-par">Мы в социальных сетях</p>
+            <div class="socials">
+                <a href="https://www.facebook.com/">
+                    <i class="fab fa-facebook sizing-social"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <i class="fab fa-instagram sizing-social"></i>
+                </a>
+                <a href="https://www.telegram.com/">
+                    <i class="fab fa-telegram sizing-social"></i>
+                </a>
+            </div>
+            <p class="location"><i class="fas fa-map-marker-alt"></i>Яккасарайский район, ул. Бабура, 74</p>
         </div>
-      </div>
-      </footer>
-<!-- Footer finished -->
-     
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </div>
+</footer>
+<!-- /Footer -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 </body>
 </html>

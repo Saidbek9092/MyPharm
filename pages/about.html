@@ -1,264 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyPharm | About</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPharm | About</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../css/shared.css">
-  <link rel="stylesheet" href="../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+          integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../css/shared.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-  <!-- Top - 1/layer - 1 -->
-      <div class="container top-layer max-width">
-        <div class="row align-items-center header">
-          <div class="col">
+<!-- Top - 1/layer - 1 -->
+<!-- Header -->
+<div class="container top-layer max-width">
+    <div class="row align-items-center header">
+        <div class="col">
               <span class="header__phone">
                 <i class="fas fa-phone-alt"></i> <strong>+998971005622</strong>
               </span>
-          </div>
-          <div class="col text-center header__logo">
-            <img src="../images/logo.svg" alt="">
-          </div>
-          <div class="col">
-            <div  class="text-end header__links">
-              <a href="#" class="header__profile">
-                <i class="fas fa-user"></i> Личный кабинет
-              </a>
-               <a href="#" class="header__register">
-                 <i class="fas fa-lock login-icon"></i> Регистрация
+        </div>
+        <div class="col text-center header__logo">
+            <img src="./images/logo.svg" alt="Logo">
+        </div>
+        <div class="col">
+            <div class="text-end header__links">
+                <a href="#" class="header__profile">
+                    <i class="fas fa-user"></i> Личный кабинет
                 </a>
-              </ul>
+                <a href="#" class="header__register">
+                    <i class="fas fa-lock login-icon"></i> Регистрация
+                </a>
             </div>
-          </div>
         </div>
-      </div>
-  <!-- Top - 1/layer - 1 finished -->
+    </div>
+</div>
+<!-- /Header -->
 
-  <!-- Top -2/ layer -2 -->
-      <section class="search-color">
-          <div class="container max-width">
-            <div class="row">
-              <div class="col">
-               <div class="d-flex search">
-                  <!-- Search -->
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <button class="btn btn-outline-secondary dropdown-toggle btn-dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars hamburger-menu"></i>Выбрать категорию</button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                      <div role="separator" class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Separated link</a>
+<!-- Search -->
+<section class="search-color">
+    <div class="container max-width">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex search">
+                    <!-- Search input -->
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-outline-secondary dropdown-toggle btn-dropdown" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                    class="fas fa-bars hamburger-menu"></i>Выбрать категорию
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button"
+                               placeholder="Поиск товаров...">
+                        <i class="fa fa-search search-position"></i>
+                        <div class="icons d-flex">
+                            <a href="#"><i class="far fa-heart fa-2x coloring"></i></a>
+                            <a href="#"><i class="fas fa-shopping-cart fa-2x coloring"></i></a>
+                        </div>
                     </div>
-                  </div>
-                  <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Поиск товаров...">
-                  <i class="fa fa-search search-position"></i>
-                  <div class="icons d-flex">
-                    <a href="#"><i class="far fa-heart fa-2x coloring"></i></a>
-                    <a href="#"><i class="fas fa-shopping-cart fa-2x coloring"></i></a>
-                  </div>
+                    <!-- /Search input -->
                 </div>
-                <!-- /Search finished -->
-
-               </div>
-              </div>
             </div>
-          </div>
-      </section>
-  <!-- Top -2/ layer -2 finished-->
-  
-      <!-- NEW NAVBAR -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container max-width">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        </div>
+    </div>
+</section>
+<!-- /Search -->
+
+<!-- Categories -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container max-width">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  <i class="fas fa-stethoscope icon-size"></i><span>ЛЕКАРСТВЕННЫЕ ПРЕПАРАТЫ</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-leaf"></i> <span class="vitamin" > ВИТАМИНЫ
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <i class="fas fa-stethoscope icon-size"></i><span>ЛЕКАРСТВЕННЫЕ ПРЕПАРАТЫ</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-leaf"></i> <span> ВИТАМИНЫ
                   И БАДЫ</span></a>
-              </li>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-briefcase-medical"></i>МЕДИЦИНСКАЯ
-                  ТЕХНИКА</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-briefcase-medical"></i>МЕДИЦИНСКАЯ
+                        ТЕХНИКА</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-briefcase-medical"></i>МЕДИЦИНСКИЕ
-                  ИЗДЕЛИЯ</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-briefcase-medical"></i>МЕДИЦИНСКИЕ
+                        ИЗДЕЛИЯ</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-pump-soap"></i>ЛЕЧЕБНАЯ КОСМЕТИКА</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-pump-soap"></i>ЛЕЧЕБНАЯ КОСМЕТИКА</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-pump-soap"></i>СРЕДСТВА ГИГИЕНЫ</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-pump-soap"></i>СРЕДСТВА ГИГИЕНЫ</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-baby"></i>МАМА 
-                  И МАЛЫШ</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-baby"></i>МАМА
+                        И МАЛЫШ</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-notes-medical"></i>ПИТАНИЕ</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-notes-medical"></i>ПИТАНИЕ</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-leaf"></i>ЛЕЧЕБНЫЕ МАСЛА,
-                  ЧАИ И ТРАВЫ</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-leaf"></i>ЛЕЧЕБНЫЕ МАСЛА,
+                        ЧАИ И ТРАВЫ</a>
+                </li>
             </ul>
-          </div>
         </div>
-      </nav>
+    </div>
+</nav>
+<!-- /Categories -->
 
-      <!-- NEW NAVBAR FINISHED -->
-      <section class="container about-photo">
-         <h1>1440x120</h1>
-      </section>
+<!--Banner-->
+<section class="container-fluid text-center">
+    <img src="https://via.placeholder.com/1440x220?text=1440x220" class="img-fluid" alt="1440x220">
+</section>
 
-      <div class="container max-width container-arrow">
-        <p>Главная</p><span class="arrow"></span><p>О компании</p><span class="arrow"></span>
-      </div>
+<!--/Banner-->
+<div class="container max-width container-arrow">
+    <p>Главная</p><span class="arrow"></span>
+    <p>О компании</p><span class="arrow"></span>
+</div>
 
-      <!-- Main parts -->
-      <div class="container about-main-box">
-        <div class="container about-main-box-1">
-          <h1>О компании</h1>
+<!-- Main parts -->
+<div class="container about-main-box">
+    <div class="container about-main-box-1">
+        <h1>О компании</h1>
+    </div>
+    <div class="container about-main-box-2 ">
+        <h1>О нас</h1>
+    </div>
+    <div class="container about-main-box-3">
+        <div class="about-product-title">
+            <p>ПАО «Аптечная сеть 36,6» - лидер в Московском регионе и одна из крупнейших аптечных сетей в стране.
+                Компания существует почти три десятилетия, развивается и укрепляет свои позиции.</p>
         </div>
-        <div class="container about-main-box-2 ">
-          <h1>О нас</h1>
-        </div>
-        <div class="container about-main-box-3">
-          <div class="about-product-title">
-            <p>ПАО «Аптечная сеть 36,6» - лидер в Московском регионе и одна из крупнейших аптечных сетей в стране. Компания существует почти три десятилетия, развивается и укрепляет свои позиции.</p>
-          </div>
-          <div class="about-products-boxes">
+        <div class="about-products-boxes">
             <div class="about-products-box">
-              <div class="about-product-icon"></div>
-              <h6><strong>Найдите товар</strong></h6>
-              <p>Воспользуйтесь поиском, чтобы найти необходимый товар</p>
+                <div class="about-product-icon"></div>
+                <h6><strong>Найдите товар</strong></h6>
+                <p>Воспользуйтесь поиском, чтобы найти необходимый товар</p>
             </div>
             <div class="about-products-box">
-              <div class="about-product-icon"></div>
-              <h6><strong>Добавьте товар</strong></h6>
-              <p>Выбранный товар добавьте в корзину</p>
+                <div class="about-product-icon"></div>
+                <h6><strong>Добавьте товар</strong></h6>
+                <p>Выбранный товар добавьте в корзину</p>
             </div>
             <div class="about-products-box">
-              <div class="about-product-icon"></div>
-              <h6><strong>Оформите заказ</strong></h6>
-              <p>Заполните поля и завершите оформление заказа</p>
+                <div class="about-product-icon"></div>
+                <h6><strong>Оформите заказ</strong></h6>
+                <p>Заполните поля и завершите оформление заказа</p>
             </div>
             <div class="about-products-box">
-              <div class="about-product-icon"></div>
-              <h6><strong>Получите заказ</strong></h6>
-              <p>Заберите товар любым удобным вам способом</p>
+                <div class="about-product-icon"></div>
+                <h6><strong>Получите заказ</strong></h6>
+                <p>Заберите товар любым удобным вам способом</p>
             </div>
-          </div>
         </div>
-        <div class="container about-main-box-4 ">
-          <h1>Миссия компании</h1>
+    </div>
+    <div class="container about-main-box-4 ">
+        <h1>Миссия компании</h1>
+    </div>
+    <div class="container about-main-box-5">
+        <div class="about-paragraph">
+            <p>Основная наша ценность – это человек, его самочувствие и настроение. Каждый день мы работаем для того
+                чтобы как можно больше людей в России могли позволить себе качественные лекарства, товары для красоты и
+                здоровья, которые сделают жизнь легче, радостнее и приятнее.</p>
         </div>
-        <div class="container about-main-box-5">
-          <div class="about-paragraph">
-            <p>Основная наша ценность – это человек, его самочувствие и настроение. Каждый день мы работаем для того чтобы как можно больше людей в России могли позволить себе качественные лекарства, товары для красоты и здоровья, которые сделают жизнь легче, радостнее и приятнее.</p>
-          </div>
-          <div class="about-images-boxes">
-            <div class="about-images-box">фото аптеки 235х185</div>
-            <div class="about-images-box">фото аптеки 235х185</div>
-            <div class="about-images-box">фото аптеки 235х185</div>
-            <div class="about-images-box">фото аптеки 235х185</div>
-          </div>
+        <div class="d-flex justify-content-between padding-all-20">
+            <img src="https://via.placeholder.com/235x185?text=235x185" class="img-fluid" alt="235x185">
+            <img src="https://via.placeholder.com/235x185?text=235x185" class="img-fluid" alt="235x185">
+            <img src="https://via.placeholder.com/235x185?text=235x185" class="img-fluid" alt="235x185">
+            <img src="https://via.placeholder.com/235x185?text=235x185" class="img-fluid" alt="235x185">
         </div>
-        <div class="container about-main-box-6 ">
-          <h1 class="about-padding">Наши преимущества</h1>
-        </div>
-        <div class="container about-main-box-7">
-            <p><strong>Качество</strong> 
-              В «Аптечной сети 36,6» качество возведено на уровень корпоративной идеологии. В компании существует специальное подразделение - Дирекция по фармацевтическому контролю, которое следит за соблюдением лицензионных требований к продукции, а значит, за тем, чтобы наши покупатели получали эффективные, безопасные и качественные препараты.
-            </p>
-            <p><strong>Цены на товары</strong>  
+    </div>
+    <div class="container about-main-box-6 ">
+        <h1 class="about-padding">Наши преимущества</h1>
+    </div>
+    <div class="container about-main-box-7">
+        <p><strong>Качество</strong>
+            В «Аптечной сети 36,6» качество возведено на уровень корпоративной идеологии. В компании существует
+            специальное подразделение - Дирекция по фармацевтическому контролю, которое следит за соблюдением
+            лицензионных требований к продукции, а значит, за тем, чтобы наши покупатели получали эффективные,
+            безопасные и качественные препараты.
+        </p>
+        <p><strong>Цены на товары</strong>
 
-              В аптеках «36,6» регулярно проходят акции и действует бонусная программа, благодаря этому наши постоянные покупатели получают скидки на весь ассортимент.</p>
-            <p><strong> Ассортимент</strong> 
+            В аптеках «36,6» регулярно проходят акции и действует бонусная программа, благодаря этому наши постоянные
+            покупатели получают скидки на весь ассортимент.</p>
+        <p><strong> Ассортимент</strong>
 
-              В наших аптеках и на нашем сайте вы найдете широчайший ассортимент лекарственных препаратов, БАДов, косметики, товаров для красоты и здоровья.</p>
-            <p><strong>Большое количество розничных аптек </strong>
-              Наши аптеки расположены по всему городу. Вы всегда можете узнать адрес ближайшего к вам аптечного пункта в нашем приложении или на сайте.</p>
-            <p><strong>Удобный поиск</strong>
-              На нашем сайте и в приложении вы легко найдете любой лекарственный препарат или косметический продукт по названию, производителю или действующему веществу.</p>
-            <p><strong>Бронирование</strong>
-              Бронирование через сервис 366.ru – это выгодные покупки с комфортом. Вы можете выбрать и заказать нужный вам товар онлайн или по телефону, а потом забрать его в той аптеке, где вам удобно.</p>
-            <p><strong>Сервис</strong>
-              Еще одно преимущество «36,6» – это высокий уровень сервиса. Приходя в наши аптеки, вы всегда можете рассчитывать на компетентную консультацию провизоров и фармацевтов, человеческое отношение и приветливую улыбку.</p>
-        </div>
-      </div>
+            В наших аптеках и на нашем сайте вы найдете широчайший ассортимент лекарственных препаратов, БАДов,
+            косметики, товаров для красоты и здоровья.</p>
+        <p><strong>Большое количество розничных аптек </strong>
+            Наши аптеки расположены по всему городу. Вы всегда можете узнать адрес ближайшего к вам аптечного пункта в
+            нашем приложении или на сайте.</p>
+        <p><strong>Удобный поиск</strong>
+            На нашем сайте и в приложении вы легко найдете любой лекарственный препарат или косметический продукт по
+            названию, производителю или действующему веществу.</p>
+        <p><strong>Бронирование</strong>
+            Бронирование через сервис 366.ru – это выгодные покупки с комфортом. Вы можете выбрать и заказать нужный вам
+            товар онлайн или по телефону, а потом забрать его в той аптеке, где вам удобно.</p>
+        <p><strong>Сервис</strong>
+            Еще одно преимущество «36,6» – это высокий уровень сервиса. Приходя в наши аптеки, вы всегда можете
+            рассчитывать на компетентную консультацию провизоров и фармацевтов, человеческое отношение и приветливую
+            улыбку.</p>
+    </div>
+</div>
 
-      <!-- Main parts finished -->
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="container footer-element max-width">
+<!-- Main parts finished -->
+<!-- Footer -->
+<footer class="footer">
+    <div class="container footer-element max-width">
         <div class="info">
-          <h1 class="footer-sizing">ИНФОРМАЦИЯ</h1>
-          <ul class="style-list">
-            <li><a class="style-list-item" href="#">Главная</a></li>
-            <li><a class="style-list-item" href="#">О компании</a></li>
-            <li><a class="style-list-item" href="#">Доставка</a></li>
-            <li><a class="style-list-item" href="#">Контакты</a></li>
-            <li><a class="style-list-item" href="#">Пользовательское соглашение</a></li>
-          </ul>
+            <h1 class="footer-sizing">ИНФОРМАЦИЯ</h1>
+            <ul class="style-list">
+                <li><a class="style-list-item" href="#">Главная</a></li>
+                <li><a class="style-list-item" href="#">О компании</a></li>
+                <li><a class="style-list-item" href="#">Доставка</a></li>
+                <li><a class="style-list-item" href="#">Контакты</a></li>
+                <li><a class="style-list-item" href="#">Пользовательское соглашение</a></li>
+            </ul>
         </div>
         <div class="catalogue">
-          <h1 class="footer-sizing">КАТАЛОГ</h1>
-          <ul class="style-list">
-            <li><a class="style-list-item" href="#">Витамины и БАДы</a></li>
-            <li><a class="style-list-item" href="#">Сахарный диабет</a></li>
-            <li><a class="style-list-item" href="#">Лекарственные препараты</a></li>
-            <li><a class="style-list-item" href="#">Приборы и изделия</a></li>
-          </ul>
+            <h1 class="footer-sizing">КАТАЛОГ</h1>
+            <ul class="style-list">
+                <li><a class="style-list-item" href="#">Витамины и БАДы</a></li>
+                <li><a class="style-list-item" href="#">Сахарный диабет</a></li>
+                <li><a class="style-list-item" href="#">Лекарственные препараты</a></li>
+                <li><a class="style-list-item" href="#">Приборы и изделия</a></li>
+            </ul>
         </div>
         <div class="mass-market">
-          <h1 class="footer-sizing">МАСС-МАРКЕТ</h1>
-          <ul class="style-list">
-            <li><a class="style-list-item" href="#">Мама и малыш</a></li>
-            <li><a class="style-list-item" href="#">Чаи и травы</a></li>
-            <li><a class="style-list-item" href="#">Гигиенические средства</a></li>
-            <li><a class="style-list-item" href="#">Детское питание</a></li>
-          </ul>
+            <h1 class="footer-sizing">МАСС-МАРКЕТ</h1>
+            <ul class="style-list">
+                <li><a class="style-list-item" href="#">Мама и малыш</a></li>
+                <li><a class="style-list-item" href="#">Чаи и травы</a></li>
+                <li><a class="style-list-item" href="#">Гигиенические средства</a></li>
+                <li><a class="style-list-item" href="#">Детское питание</a></li>
+            </ul>
         </div>
         <div class="network">
-          <h1 class="footer-sizing">Мобильное приложение MyPharm</h1>
-          <div class="logos">
-            <img src="../images/google-play-logo.svg" alt="">
-            <img src="../images/appstore.png" alt="">
-          </div>
-          <p class="social-par">Мы в социальных сетях</p>
-          <div class="socials">
-            <a href="https://www.facebook.com/">
-              <i class="fab fa-facebook sizing-social"></i>
-            </a>
-            <a href="https://www.instagram.com/">
-              <i class="fab fa-instagram sizing-social"></i>
-            </a>
-            <a href="https://www.telegram.com/">
-              <i class="fab fa-telegram sizing-social"></i>
-            </a>
-          </div>
-          <p class="location"><i class="fas fa-map-marker-alt"></i>Яккасарайский район, ул. Бабура, 74</p>
+            <h1 class="footer-sizing">Мобильное приложение MyPharm</h1>
+            <div class="logos">
+                <img src="../images/google-play-logo.svg" alt="">
+                <img src="../images/appstore.png" alt="">
+            </div>
+            <p class="social-par">Мы в социальных сетях</p>
+            <div class="socials">
+                <a href="https://www.facebook.com/">
+                    <i class="fab fa-facebook sizing-social"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <i class="fab fa-instagram sizing-social"></i>
+                </a>
+                <a href="https://www.telegram.com/">
+                    <i class="fab fa-telegram sizing-social"></i>
+                </a>
+            </div>
+            <p class="location"><i class="fas fa-map-marker-alt"></i>Яккасарайский район, ул. Бабура, 74</p>
         </div>
-      </div>
-      </footer>
+    </div>
+</footer>
 <!-- Footer finished -->
-     
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 </body>
 </html>
