@@ -1,0 +1,125 @@
+/* producers.html */
+
+/*.producers-main-box {*/
+/*    width: 1040px;*/
+/*    height: 200px;*/
+/*    border: 1px solid rgba(213, 213, 213, 0.6);*/
+/*    border-radius: 1px;*/
+/*    padding: 0;*/
+/*    margin-bottom: 46px;*/
+/*    margin-top: 60px;*/
+/*}*/
+
+.table-border {
+    border: 1px solid rgba(213, 213, 213, 0.6);
+}
+
+.company-name {
+    width: 168px;
+    height: 77px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    justify-items: center;
+    color: #A09E9E;
+}
+
+.company-number {
+    justify-items: center;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    color: #2A2A2A;
+}
+
+.producers-main-box p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2A2A2A;
+}
+
+.producers-add-more {
+    text-align: center;
+    width: 1040px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2A2A2A;
+    background: #FFFFFF;
+    border: 1px solid rgba(213, 213, 213, 0.6);
+    padding: 10px;
+}
+
+.articles-main-box {
+    width: 1040px;
+    background: #FFFFFF;
+    border: 1px solid rgba(213, 213, 213, 0.6);
+    border-radius: 1px;
+}
+
+.articles-main-box p:first-child {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(213, 213, 213, 0.6);
+    margin-bottom: 0;
+}
+
+.articles-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+
+}
+
+.padding-all-10 {
+    padding: 10px;
+}
+
+.article-grid-item p{
+    padding-left: 0;
+    margin-left: 12px;
+    text-align: left;
+    max-width: 235px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #2A2A2A;
+}
+
+.offers-main-box p:first-child {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(213, 213, 213, 0.6);
+    margin-bottom: 0;
+}
+
+.offers-main-box {
+    width: 1040px;
+    background: #FFFFFF;
+    border: 1px solid rgba(213, 213, 213, 0.6);
+    border-radius: 1px;
+}
+
+.offers-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    background-color: white;
+}
+
+.offer-grid-item {
+    margin-bottom: 20px;
+}
+
+
+
+
+
