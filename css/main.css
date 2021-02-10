@@ -81,7 +81,7 @@
     width: 200px;
     height: 283px;
     border: 1px solid rgba(213, 213, 213, 0.6);
-    margin-bottom: 2px;
+    /*margin-bottom: 2px;*/
 }
 
 
@@ -372,7 +372,6 @@
 }
 
 .section-box-aside {
-    height: 1080px;
     width: 212px;
     border: 1px solid rgba(213, 213, 213, 0.6);;
     margin-left: 31px;
@@ -441,22 +440,6 @@
 }
 
 /* Aside box */
-
-.small-box-1,
-.small-box-2 {
-    width: 172px;
-    height: 245px;
-    border: none;
-    margin: 21px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #b0b0b0;
-    background: #f2f2f2;
-    margin-top: 10px;
-}
-
 
 .form-check input {
     background: rgba(230, 230, 230, 0.6);

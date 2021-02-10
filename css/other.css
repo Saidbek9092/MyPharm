@@ -120,6 +120,54 @@
 }
 
 
+.rare-medicines-main-box {
+    width: 1040px;
+    background: #FFFFFF;
+    border: 1px solid rgba(213, 213, 213, 0.6);
+    border-radius: 1px;
+}
+
+.rare-medicines-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: white;
+}
+
+.rare-medicines-main-box p:first-child {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(213, 213, 213, 0.6);
+    margin-bottom: 0;
+}
+
+/*sales.html*/
+
+.sale-ribbon-small {
+    position: absolute;
+    background-image: url('../images/sale-ribbon.svg');
+    height: 100px;
+    width: 100px;
+    right:10%;
+    text-align: center;
+}
+
+.sale-ribbon-small span {
+    display: inline-block;
+    transform: rotate(45deg);
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 21px;
+}
+
+.image-sale {
+    position: relative;
+}
+
+
 
 
 
