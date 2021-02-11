@@ -67,22 +67,6 @@
   margin: 0;
 }
 
-/* .medicine-name-box-1 {
-  width: 260px;
-  height: 260px;
-  background-image: #f6f6f6;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #b0b0b0;
-  padding: 0;
-  margin: 0;
-} */
-
 
 .draft-medicine-name-box-1 {
   position: relative;
@@ -113,7 +97,6 @@
   color: #FFFFFF;
   margin-top: 26px;
   margin-left: 21px;
-
 }
 
 

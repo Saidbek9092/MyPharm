@@ -60,6 +60,11 @@ body {
     margin: 8px;
 }
 
+.logos button {
+    border: none;
+
+}
+
 .header {
     height: 76px;
     box-sizing: border-box;
