@@ -1,0 +1,126 @@
+
+<!-- Header -->
+<div class="container top-layer">
+    <div class="row align-items-center header">
+        <div class="col d-none d-sm-block">
+              <span class="header__phone">
+                    <a href="tel:998971005622">
+                        <i class="fas fa-phone-alt"></i><strong>+998971005622</strong>
+                    </a>
+              </span>
+        </div>
+        <div class="col text-center header__logo">
+            <img src="../images/logo.svg" alt="Logo">
+        </div>
+        <div class="col d-none d-sm-block">
+            <div class="text-end header__links">
+                <a href="../pages/profile.html" class="header__profile">
+                    <i class="fas fa-user"></i> Личный кабинет
+                </a>
+                <a href="../pages/register.html" class="header__register">
+                    <i class="fas fa-lock login-icon"></i> Регистрация
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Header -->
+
+<!-- Search -->
+<section class="search primary-bg-color d-none d-sm-block">
+    <div class="container max-width">
+        <div class="row">
+            <div class="col">
+                <form action="/server.php" method="GET">
+                    <div class="d-flex align-items-center search">
+                        <!-- Search input -->
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-secondary dropdown-toggle btn-dropdown" type="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        id="category-dropdown" data-bs-toggle="dropdown">
+                                    <i class="fas fa-bars hamburger-menu"></i>Выбрать категорию
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="category-dropdown">
+                                    <a class="dropdown-item" href="#">Категория 1</a>
+                                    <a class="dropdown-item" href="#">Категория 2</a>
+                                    <a class="dropdown-item" href="#">Категория 3</a>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Text input with dropdown button"
+                                   placeholder="Поиск товаров...">
+                            <button type="submit" class="btn btn-link search-position">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            <button type="reset" class="btn btn-link search-position cross-icon d-none">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <div class="d-flex align-items-center">
+                                <a href="#">
+                                    <img src="../images/favorite-icon.svg" alt="Favorite icon">
+                                </a>
+                                <a href="#" class="ps-2">
+                                    <img src="../images/cart-icon.svg" alt="Cart icon">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- /Search input -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Search -->
+
+<!-- Categories -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light category-list d-none d-sm-block">
+    <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <i class="fas fa-stethoscope  icon-size"></i>
+                        <span>ЛЕКАРСТВЕННЫЕ ПРЕПАРАТЫ</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-leaf"></i> <span> ВИТАМИНЫИ БАДЫ</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-briefcase-medical"></i>МЕДИЦИНСКАЯ
+                        ТЕХНИКА</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-briefcase-medical"></i>МЕДИЦИНСКИЕ
+                        ИЗДЕЛИЯ</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-pump-soap"></i>ЛЕЧЕБНАЯ КОСМЕТИКА</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-pump-soap"></i>СРЕДСТВА ГИГИЕНЫ</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-baby"></i>МАМА
+                        И МАЛЫШ</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-notes-medical"></i>ПИТАНИЕ</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-leaf"></i>ЛЕЧЕБНЫЕ МАСЛА,
+                        ЧАИ И ТРАВЫ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- /Categories -->

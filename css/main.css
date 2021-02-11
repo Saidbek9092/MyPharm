@@ -499,63 +499,49 @@
 
 /* ------------404.html------------- */
 
-.not-found-page {
-    max-width: 1040px;
-    display: flex;
-    justify-items: center;
-    text-align: center;
-    height: 300px;
+.page-404 {
+    padding: 3.75rem 3.125rem 1.875rem;
 }
 
-.not-found-page .not-found {
-    max-width: 717px;
-    margin-top: 60px;
+.page-404__not-found {
+    font-size: 1.6rem;
 }
 
-.not-found-page .error-page-404 {
-    margin-top: 20px;
-}
-
-.not-found-page .error-page-404 h6 {
-    display: inline-block;
-    font-weight: 700;
-    color: #50be14;
-    font-style: normal;
-    font-size: 150px;
-    line-height: 150px;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.not-found-page .error-message p {
-    display: inline-block;
-    font-style: normal;
+.page-404__not-found button {
+    padding: 0.625rem 1.25rem;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 48px;
-    align-items: center;
-    text-align: center;
-    color: #50BE14;
-    padding: 5px 20px;
-    margin-top: 0;
-    border: 0.5px solid #2A2A2A
-}
-
-.not-found button {
-    width: 269px;
-    height: 50px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    align-items: center;
-    text-align: center;
+    font-size: 1.25rem;
     color: #FFFFFF;
     background-color: #50be14;
     border: none;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
+
+.page-404__code h6 {
+    font-weight: 700;
+    color: #50be14;
+    font-size: 9.375rem;
+}
+
+.page-404__code p {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #50BE14;
+    padding: 0.75rem 1.875rem;
+    border: 1px solid #2A2A2A;
+    line-height: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 .brand-page-add-more {
     margin-top: 10px;
@@ -633,7 +619,7 @@
     color: #2A2A2A;
 }
 
-form label {
+.registration form label {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -643,7 +629,7 @@ form label {
     margin-top: 10px;
 }
 
-form button {
+.registration form button {
     margin: 20px 0;
     font-style: normal;
     font-weight: bold;
@@ -655,7 +641,7 @@ form button {
     border: none;
 }
 
-form input {
+.registration form input {
     margin: 3px 0;
     background: #FFFFFF;
     border: 1px solid rgba(213, 213, 213, 0.6);
@@ -663,7 +649,7 @@ form input {
     padding: 10px;
 }
 
-form p {
+.registration form p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -671,7 +657,7 @@ form p {
     color: #9B9A9A;
 }
 
-.checkbox p {
+.registration .checkbox p {
     display: inline-block;
     text-align: right;
 }
