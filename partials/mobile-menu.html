@@ -1,0 +1,42 @@
+<div id="mobile-navbar">
+    <div class="text-center mobile-search d-none" id="mobile-search-block">
+        <div class="container p-3 mt-3">
+            <img src="../images/logo.svg" alt="Logo" class="logo">
+            <div class="input-group search mb-3">
+                <input type="text" class="form-control" aria-label="Text input with dropdown button"
+                       placeholder="Поиск товаров...">
+                <button type="submit" class="btn btn-link search-position">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-mobile-menu d-sm-none">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col">
+                    <button class="btn btn-link" id="sidebar-opener" data-sidebar="main-menu">
+                        <img src="../images/list-icon.svg" alt="List icon">
+                    </button>
+                    <button class="btn btn-link" data-sidebar="category">
+                        <img src="../images/category-icon.svg" alt="Category icon">
+                        Каталог
+                    </button>
+                </div>
+                <div class="col text-end">
+                    <button class="btn btn-link" id="mobile-search-icon">
+                        <img src="../images/search-icon.svg" alt="Search icon">
+                    </button>
+                    <a href="#" class="bottom-mobile-menu__cart">
+                        <img src="../images/black-cart-icon.svg" alt="Black cart icon">
+                        <span>1</span>
+                    </a>
+                    <a href="#">
+                        <img src="../images/profile-icon.svg" alt="Profile icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/app.js"></script>

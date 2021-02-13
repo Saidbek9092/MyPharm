@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <title>MyPharm | 404 </title>
+    <title>MyPharm | Главная - Моб</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -17,12 +17,11 @@
             integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script>
         $(function () {
-            $("#navbar").load("../partials/header.html");
-            $("#footer").load("../partials/footer.html");
             $("#mobile-menu").load("../partials/mobile-menu.html");
         });
     </script>
 </head>
+
 <body>
 
 <div class="d-flex" id="wrapper">
@@ -241,27 +240,43 @@
 
     <!-- Page Content -->
     <div id="page-content-wrapper">
-        <div id="navbar"></div>
-        <!-- Image -->
-        <section class="container text-center page-404">
-            <div class="row">
-                <div class="col-sm-8 order-last order-sm-first order-last page-404__not-found">
-                    <p>
-                    <p>
-                        <strong>Страница не найдена</strong>
-                    </p>Ой, мы не можем найти нужную вам страницу! Вы воспользовались недействительной ссылкой, или страница
-                    была удалена.</p>
-                    <button type="button" class="btn">Вернуться к покупкам</button>
+        <div class="d-block d-sm-none custom-bg-light full-viewport-height">
+            <section class="registration mb-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="text-center">
+                                <img src="../images/registration-image.png" alt="Registration image">
+                            </div>
+                            <div class="registration__form">
+                                <h1>Регистрация</h1>
+                                <form action="" class="d-flex flex-column">
+                                    <label for="name">Имя, фамилия</label>
+                                    <input type="text" id="name" placeholder="Укажите имя и фамилию">
+                                    <label for="password">Придумайте пароль</label>
+                                    <input type="password" id="password" placeholder="Пароль">
+                                    <input type="password" id="password-repeat" placeholder="Придумайте пароль">
+                                    <label for="password">Номер телефона</label>
+                                    <input type="text" id="number" placeholder="+ 998 (__) ___-__-__">
+                                    <p>Captcha</p>
+                                    <p class="m-0">Нажимая на кнопку «Зарегистрироваться», я соглашаюсь с условиями
+                                        <span
+                                                style="color: #50BE14;">пользовательского соглашения</span></p>
+                                    <button>Зарегистрироваться</button>
+                                </form>
+                                <p><span style="color: #50BE14;">Авторизуйтесь,</span> если у вас уже есть аккаунт.</p>
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class="btn custom-white-outlined-btn">
+                                    Вернуться на главную
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-4 page-404__code">
-                    <h6>404</h6>
-                    <p>ошибка</p>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <!-- /Image  -->
-
-        <div id="footer"></div>
         <div id="mobile-menu"></div>
 
     </div>
@@ -269,6 +284,8 @@
 
 </div>
 <!-- /#wrapper -->
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 </body>
 </html>

@@ -13,41 +13,58 @@
           crossorigin="anonymous"/>
     <link rel="stylesheet" href="./../css/shared.css">
     <link rel="stylesheet" href="./../css/main.css">
+    <style>
+
+
+    </style>
 </head>
 <body>
-  <section class="container registration">
-    <div class="row">
-      <div class="col registration__left text-center d-flex align-items-center justify-content-center">
-        <div class="container align-items-center">
-          <h5>Заботьтесь о своем здоровье 
-            вместе с MyPharm</h5>
-            <p>
-            Выгодные цены на качественные лекарства
-            </p>
-            <img src="../images/google-play-logo.svg" alt="">
-            <img src="../images/appstore.png" alt=""><br>
-            <button>Вернуться на главную</button>
+<section class="registration  d-flex align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="registration__info text-center">
+                    <img src="../images/registration-image.png" alt="Registration image">
+                    <h2>
+                        Заботьтесь о своем здоровье вместе с MyPharm
+                    </h2>
+                    <p>
+                        Выгодные цены на качественные лекарства
+                    </p>
+                    <div class="registration__apps-link">
+                        <a href="#">
+                            <img src="../images/google-play-logo.svg" alt="Google play logo">
+                        </a>
+                        <a href="#">
+                            <img src="../images/appstore.png" alt="App store logo">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Вернуться на главную
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="registration__form">
+                    <h1>Регистрация</h1>
+                    <form action="" class="d-flex flex-column">
+                        <label for="name">Имя, фамилия</label>
+                        <input type="text" id="name" placeholder="Укажите имя и фамилию">
+                        <label for="password">Придумайте пароль</label>
+                        <input type="password" id="password" placeholder="Пароль">
+                        <input type="password" id="password-repeat" placeholder="Придумайте пароль">
+                        <label for="password">Номер телефона</label>
+                        <input type="text" id="number" placeholder="+ 998 (__) ___-__-__">
+                        <p>Captcha</p>
+                        <p class="m-0">Нажимая на кнопку «Зарегистрироваться», я соглашаюсь с условиями <span
+                                style="color: #50BE14;">пользовательского соглашения</span></p>
+                        <button>Зарегистрироваться</button>
+                    </form>
+                    <p><span style="color: #50BE14;">Авторизуйтесь,</span> если у вас уже есть аккаунт.</p>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col registration__right">
-        <div class="registration-form" >
-          <h1>Регистрация</h1>
-          <form action="" class="d-flex flex-column">
-            <label for="name">Имя, фамилия</label>
-            <input type="text" id="name" placeholder="Укажите имя и фамилию">
-            <label for="password">Придумайте пароль</label>
-            <input type="password" id="password" placeholder="Пароль">
-            <input type="password" id="password" placeholder="Придумайте пароль">
-            <label for="password">Номер телефона</label>
-            <input type="text" id="number" placeholder="+ 998 (__) ___-__-__">
-            <p>Captcha</p>
-            <p class="m-0">Нажимая на кнопку «Зарегистрироваться», я соглашаюсь с условиями  <span style="color: #50BE14;">пользовательского соглашения</span> </p>
-            <button>Зарегистрироваться</button>
-          </form>
-          <p><span style="color: #50BE14;">Авторизуйтесь,</span> если у вас уже есть аккаунт.</p>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
 </body>
 </html>
