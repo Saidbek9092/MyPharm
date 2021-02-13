@@ -185,106 +185,81 @@
 }
 
 /* --------------------about.html----------------*/
-
-.about-paragraph p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    color: #2A2A2A;
-    margin: 25px 20px
-}
-
-.about-products-boxes {
-    display: flex;
-    justify-content: space-between;
-}
-
-.about-products-box {
-    height: 185px;
-    width: 235px;
-    text-align: center;
-    border: 1px solid #f2f2f2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 20px 30px 20px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    align-items: center;
-    color: #2A2A2A;
-}
-
-.about-product-title p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    color: #2A2A2A;
-    margin: 25px 20px
-}
-
-.about-product-icon {
-    width: 60px;
-    height: 63px;
-    background: green;
-    margin-bottom: 10px;
-    margin-top: 33px;
-}
-
-.about-main-box-1 h1 {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: #2A2A2A;
-    padding: 15px 20px 15px 20px;
-    margin: 0;
-
-}
-
-.about-main-box {
-    width: 1040px;
-    height: 1330px;
-    background: #FFFFFF;
+.company {
+    padding: 0;
     border: 1px solid rgba(213, 213, 213, 0.6);
-    border-radius: 1px;
-    padding: 0;
-    margin-bottom: 46px;
-    margin-top: 20px;
-
+    margin-bottom: 45px;
 }
 
-.about-main-box-2 h1,
-.about-main-box-4 h1,
-.about-main-box-6 h1 {
-    font-style: normal;
-    font-weight: normal;
+.company > h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #2A2A2A;
+    padding: 16px 20px;
+    margin: 0;
+}
+
+.company__section > h4 {
+    padding: 11px 20px;
+    background-color: #FCFCFC;
+    border: 1px solid rgba(213, 213, 213, 0.6);
+    border-left: none;
+    border-right: none;
+    color: #2A2A2A;
     font-size: 16px;
-    line-height: 19px;
-    color: #2A2A2A;
-    border-top: 1px solid rgba(213, 213, 213, 0.6);
-    border-bottom: 1px solid rgba(213, 213, 213, 0.6);
-    background: #FCFCFC;
-    padding: 15px 20px;
 }
 
-.about-main-box-1,
-.about-main-box-2,
-.about-main-box-3,
-.about-main-box-4,
-.about-main-box-5,
-.about-main-box-6,
-.about-main-box-7 {
-    padding: 0;
+.company__section-info {
+    padding: 25px 20px;
 }
 
+.company__features {
+    margin-top: 25px;
+}
 
-.about-main-box-7 p {
-    font-style: normal;
-    font-weight: normal;
+.company__feature {
+    min-height: 205px;
+    padding: 28px 18px;
+    border: 1px solid #D5D5D5;
+    text-align: center;
     font-size: 14px;
-    color: #2A2A2A;
-    margin: 25px 20px
+    border-radius: 4px;
 }
+
+.company__feature img {
+    height: 64px;
+    width: 64px;
+}
+
+.company__feature h6 {
+    font-weight: 700;
+    color: #2A2A2A;
+}
+.company__feature p {
+    font-weight: 400;
+}
+
+.company__mission_item {
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.company__mission_item img {
+    width: 235px;
+    height: 185px;
+}
+
+.company__advantages p {
+    margin-bottom: 20px;
+}
+
+.company__advantages strong {
+    display: block;
+}
+
+
+/*------------/about.html---------------------*/
+
 
 .container .box h2 {
     font-size: 10px;
@@ -560,7 +535,7 @@
     padding: 10px;
 }
 
-/* Registration */
+/* Registration/Login/Password recovery */
 
 .registration__left {
     padding: 50px;
@@ -589,7 +564,7 @@
     margin: 20px 0;
 }
 
-.registration__left button {
+.return-back-button {
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -603,45 +578,35 @@
 
 .registration__right {
     background: darkgreen;
-    padding: 0px;
+    padding: 0;
 }
 
-.registration-form {
-    padding: 40px;
-    background: #ffffff;
-    margin: 50px;
-}
-
-.registration-form h1 {
+.primary-form-main-title {
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     color: #2A2A2A;
 }
 
-.registration form label {
-    font-style: normal;
-    font-weight: normal;
+
+.primary-form-label {
     font-size: 16px;
-    line-height: 19px;
     color: #2A2A2A;
     margin-bottom: 5px;
     margin-top: 10px;
 }
 
-.registration form button {
+.primary-form-button {
     margin: 20px 0;
-    font-style: normal;
     font-weight: bold;
     font-size: 15px;
-    line-height: 8px;
     background-color: #50BE14;
     color: #ffffff;
     padding: 15px;
     border: none;
 }
 
-.registration form input {
+.primary-form-input {
     margin: 3px 0;
     background: #FFFFFF;
     border: 1px solid rgba(213, 213, 213, 0.6);
@@ -649,26 +614,27 @@
     padding: 10px;
 }
 
-.registration form p {
-    font-style: normal;
-    font-weight: normal;
+.primary-form-p {
     font-size: 16px;
-    line-height: 19px;
     color: #9B9A9A;
 }
 
-.registration .checkbox p {
+.primary-form-box {
+    padding: 40px;
+    background: #ffffff;
+    margin: 50px;
+}
+
+.recovery-password.checkbox p {
     display: inline-block;
     text-align: right;
 }
-
 
 .send-code input {
     padding: 9px;
     margin: 0;
     width: 65%;
 }
-
 
 .send-code button {
     padding: 9px 20px;

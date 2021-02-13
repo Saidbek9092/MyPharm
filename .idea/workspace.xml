@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cba4a32a-fd70-4963-ae3e-fafe242f8418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/partials/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partials/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/about-us-icon-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/about-us-icon-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/about-us-icon-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/about-us-icon-4.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/shared.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shared.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/other.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/other.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/password-recovery.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/password-recovery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/registration-copy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sales.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sales.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,23 +152,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -173,6 +175,9 @@
       <workItem from="1612888013928" duration="37714000" />
       <workItem from="1612978763539" duration="2408000" />
       <workItem from="1613009579510" duration="192000" />
+      <workItem from="1613066509318" duration="2493000" />
+      <workItem from="1613102239073" duration="567000" />
+      <workItem from="1613103465273" duration="16764000" />
     </task>
     <servers />
   </component>
@@ -210,14 +215,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -236,6 +234,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
